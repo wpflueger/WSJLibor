@@ -25,12 +25,10 @@ libor_table = soup.find_all(
 
 # Generate lists
 A = []
-B = []
 C = []
 D = []
 E = []
 F = []
-G = []
 
 for row in libor_table[0].find_all("tr"):
     cells = row.find_all("td")
